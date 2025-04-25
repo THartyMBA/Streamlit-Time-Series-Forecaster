@@ -91,6 +91,14 @@ def plot_forecast(history_df, date_col, value_col, fc_df):
 # ────────────────────────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Time-Series Forecaster", layout="wide")
 st.title("🕒 Universal Time-Series Forecaster")
+st.info(
+    "🔔 **Demo Notice**  \n"
+    "This application is a streamlined proof-of-concept, **not** an "
+    "enterprise-grade product.  \n\n"
+    "Need production-level performance, security or custom features? "
+    "[Get in touch](mailto:you@example.com) and let’s build a tailored solution.",
+    icon="💡",
+)
 
 uploaded = st.file_uploader("📂 Upload a CSV file", type="csv")
 
