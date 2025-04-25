@@ -35,7 +35,7 @@ bash
 Copy
 Edit
 # clone the repo
-git clone https://github.com/yourname/streamlit-timeseries-forecaster.git
+git clone https://github.com/THartyMBA/streamlit-timeseries-forecaster.git
 cd streamlit-timeseries-forecaster
 
 # create & activate a virtualenv (optional)
